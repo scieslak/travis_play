@@ -1,7 +1,14 @@
 require 'simplecov'
-SimpleCov.start do
-  add_filter "/config/"
-  add_filter "/test/"
+require "codeclimate-test-reporter"
+
+if ENV["COVERAGE"]
+  SimpleCov.start do
+    add_filter "/config/"
+    add_filter "/test/"
+  end
+
+  ENV['CODECLIMATE_REPO_TOKEN'] = ENV['CODECLIMATE_TRAVIS_PLAY']
+  CodeClimate::TestReporter.start
 end
 
 

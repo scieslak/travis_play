@@ -1,0 +1,88 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/home/scieslak/Workspace/engine/travis/travis_play/lib/travis_play.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/scieslak/Workspace/engine/travis/travis_play/lib/travis_play/engine.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/scieslak/Workspace/engine/travis/travis_play/app/models/post.rb": [
+        1,
+        null
+      ],
+      "/home/scieslak/Workspace/engine/travis/travis_play/app/controllers/posts_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/home/scieslak/Workspace/engine/travis/travis_play/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1479404009
+  }
+}
