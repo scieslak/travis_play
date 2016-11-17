@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = TravisPlay::VERSION
   s.authors     = ["scieslak"]
   s.email       = ["scieslak@scieslak.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of TravisPlay."
-  s.description = "TODO: Description of TravisPlay."
+  s.homepage    = "http://scieslak.com"
+  s.summary     = "Summary of TravisPlay."
+  s.description = "Description of TravisPlay."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
