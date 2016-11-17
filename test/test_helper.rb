@@ -1,3 +1,10 @@
+require 'simplecov'
+SimpleCov.start do
+  add_filter "/config/"
+  add_filter "/test/"
+end
+
+
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 require "minitest/reporters"
