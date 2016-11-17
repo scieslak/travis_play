@@ -2,6 +2,7 @@ require 'simplecov'
 require "codeclimate-test-reporter"
 
 if ENV["COVERAGE"]
+
   SimpleCov.start do
     add_filter "/config/"
     add_filter "/test/"
@@ -9,7 +10,8 @@ if ENV["COVERAGE"]
 
   ENV['CODECLIMATE_REPO_TOKEN'] = ENV['CODECLIMATE_TRAVIS_PLAY']
   CodeClimate::TestReporter.start
-end
+
+ end
 
 
 # Configure Rails Environment
