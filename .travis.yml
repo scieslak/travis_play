@@ -6,7 +6,7 @@ script:
 - bundle exec rake railties:install:migrations
 - bundle exec rake db:migrate
 - cd ../../
-- bundle exec rake test
+- bundle exec COVERAGE=true rake test
 env:
   matrix:
     secure: WBR5bYQr1H52jBf9/5thKIkXJPAQI2zPSowDjCoX9N4C/Wi8dOPLVAD/Sv3m14HgGMemZ2a7Vi8xHd/30xgDqU950Z7Kcae4nJkLlmfFBsH3nAl+85FcIBO9cLXn89sWgpuNpxICw+FQmnz0t24vPaAesG7zs+9hDvNtZjZ/g5Hh6qnG7C4k7s87VtUIwyHVLt5t8riwqiAXqo/8XBmc8mIsMlIoLKbNKnVhW+v59VvS3iZgK9Q1sK2uhlgOvxrurJCYMolczQN5zov+dlu7/+3A6RuHgjcYWJr7r/Ut+zEuJQQ3LW+KUV5FjTJDRr+rg31nA18U9WgESNZKBPz1Lmw8WCDJLC760R3glQF9AyD5bt+GQ1zmbBy2GcPg6qbHX5e8/fa879ITYJBKcL+CerNDjpnRb1tPJUKLKqRqlIwstL/ejYi5L6UHSie2I2vVd01UDUMxnoKA84zZapaN4iADZoFwGnJQYDIEHwItmm2sBo9U+bJ/6c/cTCzfuY+QzHlo6QrzVzPQWMEHVXSYlH8W8OcLRtUkBrYwJwp5DpxRJquImKNyJ7cC0YRKTqO3q5jOwhMdv1f17nj9ZbWhNagrwyXMPQMd1lmFYl1b73ggtbABluFcZT/LC9BpQ9JVhzdJJxLJ9taK5BtM7gZikszSPt4HAqG6jwnLNIugtpk=
