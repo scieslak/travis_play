@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/scieslak/travis_play.svg?branch=master)](https://travis-ci.org/scieslak/travis_play)[![Code Climate](https://codeclimate.com/github/scieslak/travis_play/badges/gpa.svg)](https://codeclimate.com/github/scieslak/travis_play)[![Test Coverage](https://codeclimate.com/github/scieslak/travis_play/badges/coverage.svg)](https://codeclimate.com/github/scieslak/travis_play/coverage)[![Issue Count](https://codeclimate.com/github/scieslak/travis_play/badges/issue_count.svg)](https://codeclimate.com/github/scieslak/travis_play)
+[![Build Status](https://travis-ci.org/scieslak/travis_play.svg?branch=master)](https://travis-ci.org/scieslak/travis_play) [![Code Climate](https://codeclimate.com/github/scieslak/travis_play/badges/gpa.svg)](https://codeclimate.com/github/scieslak/travis_play) [![Test Coverage](https://codeclimate.com/github/scieslak/travis_play/badges/coverage.svg)](https://codeclimate.com/github/scieslak/travis_play/coverage) [![Issue Count](https://codeclimate.com/github/scieslak/travis_play/badges/issue_count.svg)](https://codeclimate.com/github/scieslak/travis_play)
 
 # TravisPlay
 
